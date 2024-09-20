@@ -1,0 +1,15 @@
+namespace: awx
+helm:
+  chart: ./helm/starter
+  releaseName: awx
+
+targetCustomizations:
+- name: prod
+  helm:
+    releaseName: confluent
+    valuesFiles:
+      - values-prod.yaml
+  clusterSelector:
+    matchLabels:
+      env: prod
+    e
