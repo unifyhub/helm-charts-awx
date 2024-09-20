@@ -1,6 +1,6 @@
 AWX:
   # enable use of awx-deploy template
-  enabled: false
+  enabled: true
   name: awx
   spec:
     admin_user: admin
