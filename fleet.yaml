@@ -6,7 +6,7 @@ helm:
 targetCustomizations:
 - name: prod
   helm:
-    releaseName: maas
+    releaseName: awx
     valuesFiles:
       - values-prod.yaml
   clusterSelector:
