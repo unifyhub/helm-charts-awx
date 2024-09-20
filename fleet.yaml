@@ -4,11 +4,11 @@ helm:
   releaseName: awx
 
 targetCustomizations:
-- name: prod
-  helm:
-    releaseName: awx
-    valuesFiles:
-      - values-prod.yaml
-  clusterSelector:
-    matchLabels:
-      env: prod
+  - name: prod
+    helm:
+      releaseName: awx
+      valuesFiles:
+        - values-prod.yaml
+    clusterSelector:
+      matchLabels:
+        env: prod
