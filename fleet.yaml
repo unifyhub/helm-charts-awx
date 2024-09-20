@@ -6,7 +6,7 @@ helm:
 targetCustomizations:
 - name: prod
   helm:
-    releaseName: confluent
+    releaseName: maas
     valuesFiles:
       - values-prod.yaml
   clusterSelector:
