@@ -12,4 +12,3 @@ targetCustomizations:
   clusterSelector:
     matchLabels:
       env: prod
-    e
