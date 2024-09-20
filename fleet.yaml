@@ -1,6 +1,6 @@
 namespace: awx
 helm:
-  chart: ./helm/starter
+  chart: .helm/starter
   releaseName: awx
 
 targetCustomizations:
